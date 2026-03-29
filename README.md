@@ -1,4 +1,5 @@
 # Python Module Repository
+## Made By: Guy Peres
 
 A clean, beginner-friendly Python learning repository containing foundational exercises, practical labs, and a small application example. This repository is designed for students and developers who want to practice core Python concepts, improve problem-solving skills, and explore a structured learning path.
 
