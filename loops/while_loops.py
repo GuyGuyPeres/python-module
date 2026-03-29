@@ -1,5 +1,5 @@
 # while loops basics
-# user_input = input("Would you like to paly? (n/y)")
+# user_input = input("Would you like to play? (n/y)")
 
 # user_input = "y"
 # while user_input != "n":
