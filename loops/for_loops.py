@@ -7,5 +7,6 @@
 # for number in range(4):
     # print(f"{number} is my friend")
 
-for number in range(0, 1000000, 3):
+for number in range(0, 10, 3):
     print(f"{number} is my friend")
+print("Hello")
