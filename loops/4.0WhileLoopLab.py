@@ -1,15 +1,15 @@
 
-i = 1; 
+# i = 1; 
 
-while i < 6:
-    # print(i)
-    i += 1
+# while i < 6:
+#     # print(i)
+#     i += 1
     
-i = 5; 
+# i = 5; 
 
-while i > 0:
-    # print(i)
-    i -= 1
+# while i > 0:
+#     # print(i)
+#     i -= 1
     
 # i = 0
 # while i < 10:
@@ -17,13 +17,13 @@ while i > 0:
 #         print(i)
 #     i += 1
 
-counter = 0
-i = 1
-while i < 6:
-    counter = counter + i
-    # print(counter)
-    # print(i)
-    i += 1
+# counter = 0
+# i = 1
+# while i < 6:
+#     counter = counter + i
+#     # print(counter)
+#     # print(i)
+#     i += 1
     
 # i = 0
 # while i < 10:
@@ -75,11 +75,30 @@ while i < 6:
 #     i += 1
 # print(f"there are {counter} even numbers until 20")
 
-counter_sum = 0
-i = 1
-while i < 11:
-    if(i % 2 != 0):
-        counter_sum += i
-        print(i)
-    i += 1
-print(counter_sum)
+# counter_sum = 0
+# i = 1
+# while i < 11:
+#     if(i % 2 != 0):
+#         counter_sum += i
+#         print(i)
+#     i += 1
+# print(counter_sum)
+
+# biggest_num = 0;
+# i = 0
+# while i < 5:
+#     num_input = int(input("add a number: "))
+#     if(num_input > biggest_num):
+#         biggest_num = num_input
+#     i += 1
+# print(f"biggest num is: {biggest_num} ")
+
+# while True:
+#     user_input = input("write anything or 'exit' to exit: ")
+#     print("you chose to keep going")
+#     if(user_input == "exit"):
+#         print("you chose to EXIT")
+#         break
+
+
+    
