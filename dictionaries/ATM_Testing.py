@@ -5,29 +5,41 @@ user_account = {
     "pin": 3571
 }
 
-def auth():
+def auth(account_pin):
     pin = int(input("enter your PIN: "))
-    return pin
+    if account_pin == pin:
+        return True
+    else:
+        return False
+        
 
 def withdraw():
-    user_pin = auth()
-    if user_pin == user_account["pin"]:
+    if auth(user_account["pin"]):
         amount = float(input("Please type the amount you would like to withdraw: "))
         if amount > user_account["balance"]:
             print("You are poor")
         else:
             user_account["balance"] -= amount
-            print(f"Your Balance now is {user_account["balance"]}")
+            balance()
     else:
         print("Wrong PIN, goodbye")
         exit()
 
 def deposite():
-    print("This is the deposite logic")
-    pass
+    if auth(user_account["pin"]):
+        amount = float(input("Please type the amount you would like to deposite: "))
+        if amount < 0:
+            print("You cannot tpye negative numbers")
+            exit()
+        else:
+            user_account["balance"] += amount
+            balance()
+    else:
+        print("Wrong PIN, goodbye")
+        exit()
 
 def balance():
-    print("This is the balance logic")
+    print(f"Your Balance now is {user_account["balance"]}")
     pass
 
 
